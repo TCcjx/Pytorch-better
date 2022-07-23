@@ -46,3 +46,4 @@ print(torch.all(torch.eq(a2, a1))) #判断两个tensor是否相同
 x = torch.rand(4,3,28,28) # b,c,h,w
 x1 = x.permute(0,2,3,1) # b,h,w,c
 print(x1.shape)
+
