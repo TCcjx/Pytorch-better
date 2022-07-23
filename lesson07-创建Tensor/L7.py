@@ -24,3 +24,13 @@ print(b,c)
 # N(0,1) N(u,std) 均值为0，标准差为1
 a = torch.randn(3,3)
 print(a)
+
+# 5.full填充创建
+a = torch.full((2,2),6)
+print(a)
+
+# 6.ones/zeros/eye
+a = torch.ones(2,2)
+b = torch.zeros(2,2)
+c = torch.eye(2,2)
+print(a, b, c)
